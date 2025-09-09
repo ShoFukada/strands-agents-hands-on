@@ -269,3 +269,4 @@ config.ini
 *.orig
 
 memo.md
+docs/memo/

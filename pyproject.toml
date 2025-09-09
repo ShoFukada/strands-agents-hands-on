@@ -1,7 +1,7 @@
 [project]
 name = "strands-agents-hands-on"
 version = "0.1.0"
-description = "Add your description here"
+description = "Strands Agents Hands-on"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
@@ -9,7 +9,10 @@ authors = [
 ]
 
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic-settings>=2.10.1",
+    "strands-agents>=1.7.1",
+]
 
 [dependency-groups]
 dev = [
