@@ -267,3 +267,5 @@ config.ini
 *.bak
 *.backup
 *.orig
+
+memo.md
